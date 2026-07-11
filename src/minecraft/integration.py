@@ -21,10 +21,15 @@ class MinecraftIntegration:
         self.actions: List[MinecraftAction] = []
         self.connected = False
 
+    @property
+    def world_path_obj(self) -> Path:
+        return self.world_path if isinstance(self.world_path, Path) else Path(str(self.world_path))
+
     def connect(self) -> bool:
         if not self.enabled:
             self.connected = False
             return False
+        self.world_path = self.world_path_obj
         self.world_path.mkdir(parents=True, exist_ok=True)
         (self.world_path / "minecraftia").mkdir(parents=True, exist_ok=True)
         self.connected = True
@@ -37,7 +42,9 @@ class MinecraftIntegration:
         if not self.connected:
             return
         self.actions.append(action)
+        self.world_path = self.world_path_obj
         manifest_path = self.world_path / "minecraftia" / "actions.jsonl"
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
         with manifest_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps({
                 "action_type": action.action_type,
