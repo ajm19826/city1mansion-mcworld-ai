@@ -71,32 +71,29 @@ class MinecraftPluginHook:
                 json.dumps({"pack": {"pack_format": 15, "description": "Minecraftia bridge datapack"}}, indent=2),
                 encoding="utf-8",
             )
-        if not self.datapack_load_path.exists():
-            self.datapack_load_path.write_text("# Minecraftia bridge load function\nfunction minecraftia:spawn_entities\n", encoding="utf-8")
-        if not self.datapack_tick_path.exists():
-            self.datapack_tick_path.write_text("# Minecraftia bridge tick function\n", encoding="utf-8")
-        if not self.datapack_spawn_path.exists():
-            self.datapack_spawn_path.write_text("# Minecraftia bridge spawn function\n", encoding="utf-8")
-        if not self.datapack_load_tag_path.exists():
-            self.datapack_load_tag_path.write_text(
-                json.dumps({"values": ["minecraftia:load"]}, indent=2),
-                encoding="utf-8",
-            )
 
-    def _ensure_datapack(self) -> None:
-        self.datapack_path.mkdir(parents=True, exist_ok=True)
-        self.datapack_data_path.mkdir(parents=True, exist_ok=True)
-        if not self.datapack_pack_path.exists():
-            self.datapack_pack_path.write_text(
-                json.dumps({"pack": {"pack_format": 15, "description": "Minecraftia bridge datapack"}}, indent=2),
-                encoding="utf-8",
-            )
+        load_function_contents = "# Minecraftia bridge load function\nfunction minecraftia:spawn_entities\n"
         if not self.datapack_load_path.exists():
-            self.datapack_load_path.write_text("# Minecraftia bridge load function\n", encoding="utf-8")
+            self.datapack_load_path.write_text(load_function_contents, encoding="utf-8")
+        else:
+            existing = self.datapack_load_path.read_text(encoding="utf-8")
+            if "function minecraftia:spawn_entities" not in existing:
+                self.datapack_load_path.write_text(f"{existing.rstrip()}\n{load_function_contents}", encoding="utf-8")
+
         if not self.datapack_tick_path.exists():
             self.datapack_tick_path.write_text("# Minecraftia bridge tick function\n", encoding="utf-8")
         if not self.datapack_spawn_path.exists():
             self.datapack_spawn_path.write_text("# Minecraftia bridge spawn function\n", encoding="utf-8")
+
+        self.datapack_load_tag_path.parent.mkdir(parents=True, exist_ok=True)
+        values = ["minecraftia:load"]
+        if self.datapack_load_tag_path.exists():
+            try:
+                current = json.loads(self.datapack_load_tag_path.read_text(encoding="utf-8") or "{}")
+                values = list(dict.fromkeys(current.get("values", []) + values))
+            except Exception:
+                values = ["minecraftia:load"]
+        self.datapack_load_tag_path.write_text(json.dumps({"values": values}, indent=2), encoding="utf-8")
 
     def _save_state(self) -> None:
         with self.lock:
