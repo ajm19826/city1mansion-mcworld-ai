@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List
+from typing import List, Optional
 
 from src.ai import CitizenAgent, AgentState, DecisionEngine
 from src.ai.roles import MayorAgent, ConstructionAgent, ExplorerAgent, EconomyAgent
@@ -10,11 +10,11 @@ from src.world_actions import WorldActionExecutor
 
 
 class AICivilizationSimulator:
-    def __init__(self, citizen_count: int = 10) -> None:
+    def __init__(self, citizen_count: int = 10, world_path: Optional[str] = None) -> None:
         self.engine = SimulationEngine()
         self.engine.bootstrap()
         self.decision_engine = DecisionEngine(model_enabled=False)
-        self.minecraft = MinecraftIntegration(enabled=True)
+        self.minecraft = MinecraftIntegration(enabled=True, world_path=world_path)
         self.minecraft.connect()
         self.bridge = MinecraftBridge(world_path=self.minecraft.world_path)
         self.plugin_hook = MinecraftPluginHook(world_path=self.minecraft.world_path)
@@ -91,6 +91,9 @@ class AICivilizationSimulator:
                 agent.remember("Managed trade or business posture", importance=4, long_term=True)
 
     def run(self, ticks: int = 1) -> None:
-        for _ in range(ticks):
-            self.engine.run_tick()
-            self.run_agent_cycle()
+        try:
+            for _ in range(ticks):
+                self.engine.run_tick()
+                self.run_agent_cycle()
+        finally:
+            self.plugin_server.stop()

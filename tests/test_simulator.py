@@ -4,6 +4,10 @@ Comprehensive test suite for the Minecraftia Civilization Simulator.
 Run with: python tests/test_simulator.py
 """
 
+from pathlib import Path
+import shutil
+import tempfile
+
 from src.engine import (
     SimulationEngine,
     Citizen,
@@ -11,6 +15,9 @@ from src.engine import (
     get_city_stats,
     get_economy_report,
 )
+from src.production import ProductionCivilizationRuntime, PerformanceConfig
+from src.simulation.ai_civilization import AICivilizationSimulator
+from src.minecraft.plugin_hook import MinecraftPluginHook
 
 
 def test_bootstrap():
@@ -172,6 +179,33 @@ def test_population_stats():
     assert stats["average_building_skill"] >= 0
     assert stats["in_prison"] >= 0
     print("✓ Population stats test passed")
+
+
+def test_production_runtime_uses_world_path():
+    """Test that ProductionCivilizationRuntime propagates the world path to the simulator."""
+    temp_dir = tempfile.mkdtemp(prefix="mc_world_")
+    try:
+        runtime = ProductionCivilizationRuntime(config=PerformanceConfig(max_agents_per_tick=1), world_path=temp_dir)
+        assert str(runtime.sim.minecraft.world_path).startswith(temp_dir)
+        assert runtime.sim.minecraft.connected is True
+        assert runtime.sim.plugin_hook.state_path.parent.exists()
+        print("✓ Production runtime world path propagation test passed")
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+def test_plugin_hook_writes_state_files():
+    """Test that the Minecraft plugin hook writes state files in the configured world path."""
+    temp_dir = tempfile.mkdtemp(prefix="mc_world_")
+    try:
+        simulator = AICivilizationSimulator(citizen_count=1, world_path=temp_dir)
+        simulator.run(1)
+        assert simulator.plugin_hook.state_path.exists(), "plugin state file should exist"
+        assert simulator.plugin_hook.entities_path.exists(), "live entities file should exist"
+        assert simulator.plugin_hook.commands_path.exists(), "plugin commands mcfunction should exist"
+        print("✓ Plugin hook state file generation test passed")
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
 
 
 def test_city_stats():
