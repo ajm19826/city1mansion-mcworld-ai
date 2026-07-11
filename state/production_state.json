@@ -230,6 +230,205 @@
     {
       "event": "runtime_stopped",
       "tick": 5
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "plan_construction",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "explore_area",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "expand_business",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "plan_construction",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "explore_area",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "plan_construction",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "explore_area",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "plan_construction",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "explore_area",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "stabilize_services",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "plan_construction",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "plan_construction",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "stabilize_services",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_services",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "explore_area",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "stabilize_services",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "plan_construction",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "stabilize_services",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "plan_construction",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "plan_construction",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "expand_business",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "expand_business",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "plan_construction",
+      "tick": 5
+    },
+    {
+      "event": "runtime_stopped",
+      "tick": 5
     }
   ],
   "world_actions": [
@@ -519,6 +718,204 @@
         "task": "new_project"
       },
       "target": "Citizen_0031",
+      "tick": 5
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 1
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0023",
+      "tick": 1
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0026",
+      "tick": 1
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0038",
+      "tick": 1
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0001",
+      "tick": 2
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0003",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0003",
+      "tick": 2
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 2
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 3
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0009",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0009",
+      "tick": 3
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0010",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0010",
+      "tick": 3
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0021",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0021",
+      "tick": 3
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0025",
+      "tick": 3
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0030",
+      "tick": 3
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 3
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 3
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 4
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0021",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0021",
+      "tick": 4
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0030",
+      "tick": 4
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 4
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0010",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0010",
+      "tick": 5
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0025",
+      "tick": 5
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0038",
       "tick": 5
     }
   ]
