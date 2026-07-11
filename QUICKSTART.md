@@ -23,6 +23,16 @@ python -m src.main
 ```
 This runs indefinitely, auto-saving every tick. Stop with Ctrl+C.
 
+### Enable online AI mode
+```bash
+python -m src.main --enable-online-model
+```
+
+### One-command startup with seeding
+```powershell
+python .\scripts\seed_population.py --world-path "D:\Minecraft Worlds\saves\city1mansion ai" ; python -m src.main --world-path "D:\Minecraft Worlds\saves\city1mansion ai" --enable-online-model
+```
+
 ### Option 2: Run for a Fixed Number of Ticks
 ```python
 from src.engine.gameloop import GameLoop

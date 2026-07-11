@@ -9,4 +9,4 @@ Set-Location $projectRoot
 Write-Host "Starting Minecraftia AI Civilization Simulator..."
 Write-Host "World path: $worldPath"
 
-python -m src.main
+python -m src.main --world-path "$worldPath" --enable-online-model
