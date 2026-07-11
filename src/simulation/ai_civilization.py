@@ -1,22 +1,25 @@
 from __future__ import annotations
 
-from typing import List
+from typing import List, Optional
 
 from src.ai import CitizenAgent, AgentState, DecisionEngine
 from src.ai.roles import MayorAgent, ConstructionAgent, ExplorerAgent, EconomyAgent
 from src.engine import SimulationEngine
-from src.minecraft import MinecraftIntegration, MinecraftAction, MinecraftBridge
+from src.minecraft import MinecraftIntegration, MinecraftAction, MinecraftBridge, MinecraftPluginHook, MinecraftPluginServer
 from src.world_actions import WorldActionExecutor
 
 
 class AICivilizationSimulator:
-    def __init__(self, citizen_count: int = 10) -> None:
+    def __init__(self, citizen_count: int = 10, world_path: Optional[str] = None) -> None:
         self.engine = SimulationEngine()
         self.engine.bootstrap()
         self.decision_engine = DecisionEngine(model_enabled=False)
-        self.minecraft = MinecraftIntegration(enabled=True)
+        self.minecraft = MinecraftIntegration(enabled=True, world_path=world_path)
         self.minecraft.connect()
         self.bridge = MinecraftBridge(world_path=self.minecraft.world_path)
+        self.plugin_hook = MinecraftPluginHook(world_path=self.minecraft.world_path)
+        self.plugin_server = MinecraftPluginServer(world_path=self.minecraft.world_path)
+        self.plugin_server.start()
         self.world_actions = WorldActionExecutor()
         self.agents: List[CitizenAgent] = []
         self._create_agents(citizen_count)
@@ -62,14 +65,21 @@ class AICivilizationSimulator:
             action = self.minecraft.execute_decision(decision, agent.state.name)
             if action:
                 self.minecraft.publish_action(action)
+                entity_id = f"entity_{agent.state.name.replace(' ', '_').lower()}"
+                self.plugin_hook.register_entity(entity_id, agent.state.name, agent.state.role, agent.state.city)
                 if action.action_type == "build":
                     self.bridge.emit_build_command(agent.state.name, agent.state.city)
+                    self.plugin_hook.queue_action(entity_id, "build", {"location": agent.state.city, "block": "oak_planks"})
                 elif action.action_type == "explore":
                     self.bridge.emit_explore_command(agent.state.name, agent.state.city)
+                    self.plugin_hook.queue_action(entity_id, "explore", {"location": agent.state.city})
                 elif action.action_type == "government":
                     self.bridge.emit_govern_command(agent.state.name, "fund_repairs")
+                    self.plugin_hook.queue_action(entity_id, "govern", {"action": "fund_repairs"})
                 elif action.action_type == "economy":
                     self.bridge.emit_economy_command(agent.state.name, "adjust_prices")
+                    self.plugin_hook.queue_action(entity_id, "economy", {"item": "emerald", "count": 1})
+                self.plugin_hook.process_tick()
             world_action = self.world_actions.execute(decision, agent.state.name, self.engine.world)
             if world_action:
                 agent.memory.add(f"World action: {world_action.action_type}", importance=2)
@@ -83,6 +93,9 @@ class AICivilizationSimulator:
                 agent.remember("Managed trade or business posture", importance=4, long_term=True)
 
     def run(self, ticks: int = 1) -> None:
-        for _ in range(ticks):
-            self.engine.run_tick()
-            self.run_agent_cycle()
+        try:
+            for _ in range(ticks):
+                self.engine.run_tick()
+                self.run_agent_cycle()
+        finally:
+            self.plugin_server.stop()

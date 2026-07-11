@@ -21,9 +21,9 @@ class PerformanceConfig:
 
 
 class ProductionCivilizationRuntime:
-    def __init__(self, config: Optional[PerformanceConfig] = None) -> None:
+    def __init__(self, config: Optional[PerformanceConfig] = None, world_path: Optional[str] = None) -> None:
         self.config = config or PerformanceConfig()
-        self.sim = AICivilizationSimulator(citizen_count=1000)
+        self.sim = AICivilizationSimulator(citizen_count=1000, world_path=world_path)
         self.state_store = ProductionStateStore()
         self.safety_guard = SafetyGuard(max_actions_per_tick=self.config.max_agents_per_tick)
         self.tick_count = 0
@@ -80,3 +80,7 @@ class ProductionCivilizationRuntime:
         finally:
             self.running = False
             self.state_store.append_event({"event": "runtime_stopped", "tick": self.tick_count})
+
+    def stop(self) -> None:
+        if self.sim and getattr(self.sim, "plugin_server", None):
+            self.sim.plugin_server.stop()

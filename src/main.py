@@ -13,9 +13,8 @@ def main() -> None:
     print("Starting Minecraftia AI Civilization Simulator for a private Minecraft world...")
     world_path = os.environ.get("MINECRAFT_WORLD_PATH", r"D:\Minecraft Worlds\saves\city1mansion ai")
     config = PerformanceConfig(max_agents_per_tick=40, max_active_citizens=80, tick_interval_seconds=1.0)
-    runtime = ProductionCivilizationRuntime(config=config)
+    runtime = ProductionCivilizationRuntime(config=config, world_path=world_path)
     runtime.sim.minecraft.mode = "private_world"
-    runtime.sim.minecraft.world_path = world_path
     runtime.run(ticks=5)
     print(f"Private-world AI simulation cycle completed. Actions written to {world_path}")
 
