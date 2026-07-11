@@ -4,6 +4,7 @@ Comprehensive test suite for the Minecraftia Civilization Simulator.
 Run with: python tests/test_simulator.py
 """
 
+import json
 from pathlib import Path
 import shutil
 import tempfile
@@ -205,6 +206,25 @@ def test_plugin_hook_writes_state_files():
         assert simulator.plugin_hook.entities_path.exists(), "live entities file should exist"
         assert simulator.plugin_hook.commands_path.exists(), "plugin commands mcfunction should exist"
         print("✓ Plugin hook state file generation test passed")
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+def test_plugin_hook_generates_datapack_load_registration():
+    """Test that the Minecraft plugin hook creates datapack load registration files."""
+    temp_dir = tempfile.mkdtemp(prefix="mc_world_")
+    try:
+        hook = MinecraftPluginHook(world_path=temp_dir)
+        assert hook.datapack_pack_path.exists(), "datapack pack.mcmeta should exist"
+        assert hook.datapack_load_tag_path.exists(), "datapack load tag should exist"
+        assert hook.datapack_load_path.exists(), "datapack load function should exist"
+
+        load_tag = json.loads(hook.datapack_load_tag_path.read_text(encoding="utf-8"))
+        assert "minecraftia:load" in load_tag.get("values", []), "load tag should reference minecraftia:load"
+
+        load_contents = hook.datapack_load_path.read_text(encoding="utf-8")
+        assert "function minecraftia:spawn_entities" in load_contents, "load function should call spawn_entities"
+        print("✓ Plugin hook datapack load registration test passed")
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
