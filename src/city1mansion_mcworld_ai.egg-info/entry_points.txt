@@ -1,0 +1,2 @@
+[console_scripts]
+mcivilization = src.main:main
