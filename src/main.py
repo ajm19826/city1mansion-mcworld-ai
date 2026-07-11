@@ -15,8 +15,15 @@ def main() -> None:
     config = PerformanceConfig(max_agents_per_tick=40, max_active_citizens=80, tick_interval_seconds=1.0)
     runtime = ProductionCivilizationRuntime(config=config, world_path=world_path)
     runtime.sim.minecraft.mode = "private_world"
-    runtime.run(ticks=5)
-    print(f"Private-world AI simulation cycle completed. Actions written to {world_path}")
+    print("Plugin server running at http://127.0.0.1:8765")
+    print("Press CTRL+C to stop the simulator.")
+    try:
+        runtime.run(ticks=999999)
+    except KeyboardInterrupt:
+        print("Stopping simulation...")
+    finally:
+        runtime.stop()
+        print(f"Simulation stopped. Actions written to {world_path}")
 
 
 if __name__ == "__main__":

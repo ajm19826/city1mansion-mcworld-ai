@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import threading
-import time
+import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from typing import Any, Dict, Optional
@@ -11,15 +11,38 @@ from src.minecraft.plugin_hook import MinecraftPluginHook
 
 
 class PluginRequestHandler(BaseHTTPRequestHandler):
-    def do_GET(self) -> None:  # noqa: N802
-        if self.path.startswith("/health"):
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json")
-            self.end_headers()
-            self.wfile.write(b'{"status":"ok"}')
-            return
-        self.send_response(404)
+    def _send_json(self, status: int, payload: Any) -> None:
+        body = json.dumps(payload).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
         self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self) -> None:  # noqa: N802
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path
+        if path == "/health":
+            self._send_json(200, {"status": "ok"})
+            return
+        if path == "/state":
+            self._send_json(200, self.server.hook.snapshot())
+            return
+        if path == "/entities":
+            self._send_json(200, self.server.hook.get_entities())
+            return
+        if path.startswith("/entities/"):
+            entity_id = path.split("/", 2)[2]
+            entity = self.server.hook.get_entity(entity_id)
+            if entity is None:
+                self._send_json(404, {"error": "entity_not_found"})
+                return
+            self._send_json(200, entity)
+            return
+        if path == "/queue":
+            self._send_json(200, self.server.hook.get_queue())
+            return
+        self._send_json(404, {"error": "not_found"})
 
     def do_POST(self) -> None:  # noqa: N802
         length = int(self.headers.get("Content-Length", "0"))
@@ -28,18 +51,29 @@ class PluginRequestHandler(BaseHTTPRequestHandler):
             data = json.loads(payload)
         except json.JSONDecodeError:
             data = {}
-        if self.path.startswith("/action"):
+        path = urllib.parse.urlparse(self.path).path
+        if path == "/action":
             entity_id = data.get("entity_id", "unknown")
-            hook = self.server.hook
-            hook.queue_action(entity_id, data.get("action_type", "noop"), data.get("payload", {}))
-            hook.process_tick()
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json")
-            self.end_headers()
-            self.wfile.write(json.dumps({"status": "queued"}).encode("utf-8"))
+            action_type = data.get("action_type", "noop")
+            payload_data = data.get("payload", {})
+            self.server.hook.queue_action(entity_id, action_type, payload_data)
+            self.server.hook.process_tick()
+            self._send_json(200, {"status": "queued", "entity_id": entity_id, "action_type": action_type})
             return
-        self.send_response(404)
-        self.end_headers()
+        if path == "/interact":
+            entity_id = data.get("entity_id", "unknown")
+            interaction = data.get("interaction", "talk")
+            metadata = data.get("metadata", {})
+            self.server.hook.queue_interaction(entity_id, interaction, metadata)
+            self.server.hook.process_tick()
+            self._send_json(200, {"status": "interaction_queued", "entity_id": entity_id, "interaction": interaction})
+            return
+        if path == "/tick":
+            tick = data.get("tick")
+            processed = self.server.hook.process_tick(tick=tick)
+            self._send_json(200, {"processed": processed})
+            return
+        self._send_json(404, {"error": "not_found"})
 
     def log_message(self, format: str, *args: Any) -> None:  # noqa: A003
         return
