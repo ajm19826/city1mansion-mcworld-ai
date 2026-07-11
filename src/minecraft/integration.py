@@ -44,6 +44,7 @@ class MinecraftIntegration:
         self.actions.append(action)
         self.world_path = self.world_path_obj
         manifest_path = self.world_path / "minecraftia" / "actions.jsonl"
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
         with manifest_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps({
                 "action_type": action.action_type,
