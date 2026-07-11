@@ -101,7 +101,38 @@ class SaveManager:
             )
             """
         )
+        cursor.execute(
+            """
+            CREATE TABLE IF NOT EXISTS metadata (
+                key TEXT PRIMARY KEY,
+                value TEXT
+            )
+            """
+        )
         self.connection.commit()
+
+    def _set_metadata(self, key: str, value: str) -> None:
+        cursor = self.connection.cursor()
+        cursor.execute(
+            "INSERT OR REPLACE INTO metadata (key, value) VALUES (?, ?)",
+            [key, value],
+        )
+        self.connection.commit()
+
+    def _get_metadata(self, key: str, default: str = "0") -> str:
+        cursor = self.connection.cursor()
+        cursor.execute("SELECT value FROM metadata WHERE key = ?", [key])
+        row = cursor.fetchone()
+        return row[0] if row else default
+
+    def mark_resume(self) -> None:
+        self._set_metadata("resume_pending", "1")
+
+    def clear_resume(self) -> None:
+        self._set_metadata("resume_pending", "0")
+
+    def should_resume(self) -> bool:
+        return self._get_metadata("resume_pending", "0") == "1"
 
     def save_citizens(self, citizens: List[Citizen]) -> None:
         cursor = self.connection.cursor()
@@ -289,6 +320,11 @@ class SaveManager:
                 city.mines.append(mine)
 
         return world
+
+    def save_state(self, world: World, citizens: List[Citizen]) -> None:
+        self.save_world(world)
+        self.save_citizens(citizens)
+        self.mark_resume()
 
     def close(self) -> None:
         self.connection.close()

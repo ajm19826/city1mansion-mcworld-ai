@@ -73,7 +73,8 @@ def test_mining_system():
     engine._run_mining()
     
     # Check resources were extracted
-    assert sum(engine.world.resources.values()) >= 0, "Resources should exist"
+    assert sum(engine.world.resources.values()) > 0, "Resources should be extracted"
+    assert len({mine.mine_id for city in engine.world.cities.values() for mine in city.mines}) == sum(len(city.mines) for city in engine.world.cities.values()), "Mine IDs should be unique"
     print("✓ Mining system test passed")
 
 
@@ -132,7 +133,7 @@ def test_save_load():
     
     # Create new engine and load
     engine2 = SimulationEngine()
-    engine2.bootstrap()
+    engine2.bootstrap(resume=True)
     
     # Get the same citizen
     citizen_after = engine2.citizens[0]
@@ -141,6 +142,20 @@ def test_save_load():
     assert citizen_after.name == name_before, "Citizen name should match"
     assert citizen_after.balance == balance_before, "Citizen balance should match"
     print("✓ Save/load test passed")
+
+
+def test_bootstrap_resets_state_by_default():
+    """A fresh bootstrap should not silently resume a stale in-memory save."""
+    engine = SimulationEngine()
+    engine.bootstrap()
+    engine.citizens[0].balance = 999999.0
+    engine.save_state()
+
+    other_engine = SimulationEngine()
+    other_engine.bootstrap()
+
+    assert other_engine.citizens[0].balance != 999999.0, "Fresh bootstrap should not resume stale saved state"
+    print("✓ Bootstrap reset test passed")
 
 
 def test_population_stats():

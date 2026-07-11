@@ -29,7 +29,7 @@ class GameLoop:
     def bootstrap(self) -> bool:
         """Initialize and load the civilization."""
         print("[BOOTSTRAP] Loading civilization simulator...")
-        self.engine.bootstrap()
+        self.engine.bootstrap(resume=True)
         print(f"[BOOTSTRAP] Loaded {len(self.engine.citizens)} citizens across {len(self.engine.world.cities)} cities")
 
         print("[BOOTSTRAP] Attempting Minecraft connection...")

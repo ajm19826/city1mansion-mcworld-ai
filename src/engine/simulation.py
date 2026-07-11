@@ -33,19 +33,23 @@ class SimulationEngine:
         self.exploration = ExplorationSystem()
         self.player_location: str = "Monesttery"
 
-    def bootstrap(self) -> None:
-        loaded_citizens = self.save_manager.load_citizens()
-        loaded_world = self.save_manager.load_world()
-        if loaded_citizens and loaded_world.cities:
-            self.citizens = loaded_citizens
-            self.world = loaded_world
-            self.government = GovernmentSystem(world=self.world)
-            self.legal = LegalSystem(world=self.world, economy=self.economy)
-            self.diplomacy = DiplomacySystem(world=self.world)
-            self.mining = MiningSystem()
-            self.construction = ConstructionSystem(world=self.world)
-            self.government.bootstrap_government(self.citizens)
-            return
+    def bootstrap(self, resume: bool = False) -> None:
+        self.save_manager.clear_resume()
+
+        if resume and self.save_manager.should_resume():
+            loaded_citizens = self.save_manager.load_citizens()
+            loaded_world = self.save_manager.load_world()
+            if loaded_citizens and loaded_world.cities:
+                self.citizens = loaded_citizens
+                self.world = loaded_world
+                self.government = GovernmentSystem(world=self.world)
+                self.legal = LegalSystem(world=self.world, economy=self.economy)
+                self.diplomacy = DiplomacySystem(world=self.world)
+                self.mining = MiningSystem()
+                self.construction = ConstructionSystem(world=self.world)
+                self.government.bootstrap_government(self.citizens)
+                self.save_manager.clear_resume()
+                return
 
         self._create_world()
         self._create_population()
@@ -106,6 +110,10 @@ class SimulationEngine:
                 owner_id=None,
             )
             self.mining.register_company(company)
+            residents = [citizen.citizen_id for citizen in self.citizens if citizen.city == city_name and not citizen.is_child]
+            if residents:
+                worker_ids = random.sample(residents, k=min(3, len(residents)))
+                self.mining.assign_workers(company_id, worker_ids)
             resource_type = random.choice(["coal", "iron", "gold", "diamonds", "stone", "rare"])
             self.mining.discover_mine(self.world, city_name, resource_type)
 
@@ -180,8 +188,7 @@ class SimulationEngine:
                 citizen.add_memory("Checked routine schedule.", importance=1)
 
     def save_state(self) -> None:
-        self.save_manager.save_world(self.world)
-        self.save_manager.save_citizens(self.citizens)
+        self.save_manager.save_state(self.world, self.citizens)
 
     def shutdown(self) -> None:
         self.save_manager.close()

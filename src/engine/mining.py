@@ -18,10 +18,11 @@ class MiningCompany:
 
     def operate(self, world: World) -> Dict[str, float]:
         extracted: Dict[str, float] = {}
+        worker_count = max(1, len(self.employees))
         for city in world.cities.values():
             for mine in city.mines:
-                if mine.discovered and len(self.employees) > 0:
-                    amount = mine.yield_rate * len(self.employees) * random.uniform(0.8, 1.2)
+                if mine.discovered:
+                    amount = mine.yield_rate * worker_count * random.uniform(0.8, 1.2)
                     extracted[mine.resource_type] = extracted.get(mine.resource_type, 0.0) + amount
         return extracted
 
@@ -51,8 +52,16 @@ class MiningSystem:
                 territory=city.territory,
                 country=city.country,
             )
+
+        existing_ids = {mine.mine_id for mine in city.mines}
+        suffix = 0
+        mine_id = f"mine_{city.name}_{resource_type}_{suffix}"
+        while mine_id in existing_ids:
+            suffix += 1
+            mine_id = f"mine_{city.name}_{resource_type}_{suffix}"
+
         mine = Mine(
-            mine_id=f"mine_{city.name}_{resource_type}_{len(city.mines)}",
+            mine_id=mine_id,
             name=f"{city_name} {resource_type.title()} Mine",
             location=location,
             resource_type=resource_type,
