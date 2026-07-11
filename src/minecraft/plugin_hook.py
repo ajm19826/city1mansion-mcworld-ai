@@ -66,6 +66,7 @@ class MinecraftPluginHook:
         self.datapack_data_path.mkdir(parents=True, exist_ok=True)
         self.datapack_load_path.parent.mkdir(parents=True, exist_ok=True)
         self.datapack_load_tag_path.parent.mkdir(parents=True, exist_ok=True)
+
         if not self.datapack_pack_path.exists():
             self.datapack_pack_path.write_text(
                 json.dumps({"pack": {"pack_format": 15, "description": "Minecraftia bridge datapack"}}, indent=2),
