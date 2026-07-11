@@ -17,7 +17,9 @@ The simulator now creates a live plugin bridge under `minecraftia/` inside your 
 
 1. Set your Minecraft world folder path using `MINECRAFT_WORLD_PATH`.
 2. Run `src/main.py` from the project root.
-3. The simulator starts the HTTP bridge at `http://127.0.0.1:8765`.
+3. The simulator starts the HTTP bridge at `http://127.0.0.1:8765` and keeps it alive until the runtime stops.
+
+Use `SIM_TICKS=0` or leave `SIM_TICKS` undefined to run indefinitely and keep the bridge available for live interaction.
 
 ## Interaction API
 
@@ -31,6 +33,21 @@ Use these endpoints to interact with live AI entities:
 - `POST /action` — queue an action for an entity
 - `POST /interact` — send a direct interaction command
 - `POST /tick` — advance the bridge tick manually
+
+Authentication
+--------------
+
+For local private use you can optionally enable a simple API key by setting the `PLUGIN_API_KEY` environment variable. When set, mutating endpoints (`/action`, `/interact`, `/tick`) require the header `X-Api-Key: <your-key>`.
+
+Example:
+
+```bash
+export PLUGIN_API_KEY="my_secret"
+curl -X POST http://127.0.0.1:8765/action \
+  -H 'Content-Type: application/json' \
+  -H 'X-Api-Key: my_secret' \
+  -d '{"entity_id":"entity_alice","action_type":"build","payload":{"location":"Monesttery"}}'
+```
 
 ### Example `curl` commands
 

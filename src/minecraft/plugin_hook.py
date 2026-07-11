@@ -1,9 +1,15 @@
 from __future__ import annotations
 
 import json
+import logging
+import os
+import tempfile
 import threading
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+
+
+logger = logging.getLogger(__name__)
 
 
 class MinecraftPluginHook:
@@ -45,9 +51,24 @@ class MinecraftPluginHook:
 
     def _save_state(self) -> None:
         with self.lock:
-            self._ensure_files()
-            with self.state_path.open("w", encoding="utf-8") as handle:
-                json.dump(self.state, handle, indent=2, sort_keys=True)
+            try:
+                self._ensure_files()
+                # atomic write to avoid partial/corrupt state files
+                tmp_fd, tmp_path = tempfile.mkstemp(dir=str(self.state_path.parent), prefix=".state_tmp_")
+                try:
+                    with os.fdopen(tmp_fd, "w", encoding="utf-8") as handle:
+                        json.dump(self.state, handle, indent=2, sort_keys=True)
+                        handle.flush()
+                        os.fsync(handle.fileno())
+                    os.replace(tmp_path, str(self.state_path))
+                finally:
+                    if os.path.exists(tmp_path):
+                        try:
+                            os.remove(tmp_path)
+                        except Exception:
+                            pass
+            except Exception as exc:  # pragma: no cover - defensive logging
+                logger.exception("Failed to save plugin state: %s", exc)
 
     def register_entity(self, entity_id: str, name: str, role: str, location: str, position: Optional[Dict[str, float]] = None) -> Dict[str, Any]:
         with self.lock:
@@ -184,8 +205,23 @@ class MinecraftPluginHook:
             handle.write(f"# interact {entity['name']} -> {interaction}\n")
 
     def _save_entities(self) -> None:
-        with self.entities_path.open("w", encoding="utf-8") as handle:
-            json.dump(self.state.get("entities", {}), handle, indent=2, sort_keys=True)
+        try:
+            self._ensure_files()
+            tmp_fd, tmp_path = tempfile.mkstemp(dir=str(self.entities_path.parent), prefix=".entities_tmp_")
+            try:
+                with os.fdopen(tmp_fd, "w", encoding="utf-8") as handle:
+                    json.dump(self.state.get("entities", {}), handle, indent=2, sort_keys=True)
+                    handle.flush()
+                    os.fsync(handle.fileno())
+                os.replace(tmp_path, str(self.entities_path))
+            finally:
+                if os.path.exists(tmp_path):
+                    try:
+                        os.remove(tmp_path)
+                    except Exception:
+                        pass
+        except Exception as exc:  # pragma: no cover - defensive logging
+            logger.exception("Failed to save entities file: %s", exc)
 
     def snapshot(self) -> Dict[str, Any]:
         self._save_entities()

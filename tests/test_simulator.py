@@ -7,6 +7,7 @@ Run with: python tests/test_simulator.py
 from pathlib import Path
 import shutil
 import tempfile
+import time
 
 from src.engine import (
     SimulationEngine,
@@ -204,6 +205,23 @@ def test_plugin_hook_writes_state_files():
         assert simulator.plugin_hook.entities_path.exists(), "live entities file should exist"
         assert simulator.plugin_hook.commands_path.exists(), "plugin commands mcfunction should exist"
         print("✓ Plugin hook state file generation test passed")
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+def test_simulator_keeps_plugin_server_running_after_run():
+    """Test that the simulator keeps the plugin server running after a run cycle until stopped."""
+    temp_dir = tempfile.mkdtemp(prefix="mc_world_")
+    try:
+        simulator = AICivilizationSimulator(citizen_count=1, world_path=temp_dir)
+        time.sleep(0.1)
+        simulator.run(1)
+        assert simulator.plugin_server.server is not None, "plugin server should still be active after run"
+        assert simulator.plugin_server.thread is not None and simulator.plugin_server.thread.is_alive(), "plugin server thread should remain alive after run"
+        simulator.stop()
+        assert simulator.plugin_server.server is None, "plugin server should be stopped after stop()"
+        assert simulator.plugin_server.thread is None, "plugin server thread should be cleared after stop()"
+        print("✓ Simulator plugin server lifecycle test passed")
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 

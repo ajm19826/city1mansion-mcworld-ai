@@ -52,6 +52,14 @@ class AICivilizationSimulator:
             else:
                 self.agents.append(CitizenAgent(state))
 
+    def start(self) -> None:
+        if self.plugin_server and getattr(self.plugin_server, "server", None) is None:
+            self.plugin_server.start()
+
+    def stop(self) -> None:
+        if self.plugin_server:
+            self.plugin_server.stop()
+
     def run_agent_cycle(self) -> None:
         for agent in self.agents:
             context = {
@@ -93,9 +101,6 @@ class AICivilizationSimulator:
                 agent.remember("Managed trade or business posture", importance=4, long_term=True)
 
     def run(self, ticks: int = 1) -> None:
-        try:
-            for _ in range(ticks):
-                self.engine.run_tick()
-                self.run_agent_cycle()
-        finally:
-            self.plugin_server.stop()
+        for _ in range(ticks):
+            self.engine.run_tick()
+            self.run_agent_cycle()

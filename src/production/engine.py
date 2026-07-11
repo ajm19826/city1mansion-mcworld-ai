@@ -71,16 +71,23 @@ class ProductionCivilizationRuntime:
             for agent in self.sim.agents[self.config.max_active_citizens:]:
                 agent.memory.add("Background simulation update", importance=1)
 
-    def run(self, ticks: int = 10) -> None:
+    def run(self, ticks: Optional[int] = 10) -> None:
         self.running = True
+        self.sim.start()
         try:
-            for _ in range(ticks):
-                self.run_tick()
-                time.sleep(self.config.tick_interval_seconds)
+            if ticks is None:
+                while self.running:
+                    self.run_tick()
+                    time.sleep(self.config.tick_interval_seconds)
+            else:
+                for _ in range(ticks):
+                    self.run_tick()
+                    time.sleep(self.config.tick_interval_seconds)
         finally:
             self.running = False
             self.state_store.append_event({"event": "runtime_stopped", "tick": self.tick_count})
 
     def stop(self) -> None:
+        self.running = False
         if self.sim and getattr(self.sim, "plugin_server", None):
             self.sim.plugin_server.stop()
