@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Seed the Minecraft plugin bridge with all citizens from the simulation engine.
+r"""Seed the Minecraft plugin bridge with all citizens from the simulation engine.
 
 Usage:
   python scripts/seed_population.py --world-path "D:\Minecraft Worlds\saves\city1mansion ai" --batch 500
@@ -16,6 +16,10 @@ import sys
 import time
 from pathlib import Path
 from typing import Optional
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.engine import SimulationEngine
 from src.minecraft.plugin_hook import MinecraftPluginHook

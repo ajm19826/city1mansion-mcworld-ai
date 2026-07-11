@@ -21,6 +21,28 @@ The simulator now creates a live plugin bridge under `minecraftia/` inside your 
 
 Use `SIM_TICKS=0` or leave `SIM_TICKS` undefined to run indefinitely and keep the bridge available for live interaction.
 
+### Enable online AI mode
+
+Run the simulator with the `--enable-online-model` flag, or set `ENABLE_ONLINE_MODEL=true` in the environment.
+
+```powershell
+python -m src.main --world-path "D:\Minecraft Worlds\saves\city1mansion ai" --enable-online-model
+```
+
+### One-command startup with seeding
+
+Use this sequence to seed the world and then launch the simulator with online AI enabled:
+
+```powershell
+python .\scripts\seed_population.py --world-path "D:\Minecraft Worlds\saves\city1mansion ai" ; python -m src.main --world-path "D:\Minecraft Worlds\saves\city1mansion ai" --enable-online-model
+```
+
+For a Windows CMD shell:
+
+```cmd
+python scripts\seed_population.py --world-path "D:\Minecraft Worlds\saves\city1mansion ai" && python -m src.main --world-path "D:\Minecraft Worlds\saves\city1mansion ai" --enable-online-model
+```
+
 ## Interaction API
 
 Use these endpoints to interact with live AI entities:
