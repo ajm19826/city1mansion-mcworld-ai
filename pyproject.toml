@@ -1,0 +1,17 @@
+[project]
+name = "city1mansion_mcworld_ai"
+version = "0.1.0"
+description = "Minecraftia Civilization Simulator engine for persistent AI population management."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "AI Lead", email = "ai@example.com"}
+]
+license = {text = "MIT"}
+
+[project.scripts]
+mcivilization = "src.main:main"
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
