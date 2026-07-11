@@ -30,6 +30,13 @@ class MinecraftPluginHook:
         self.interactions_path = self.world_path / "minecraftia" / "plugin_interactions.jsonl"
         self.state: Dict[str, Any] = {"tick": 0, "entities": {}, "actions": []}
         self.lock = threading.Lock()
+        self.datapack_path = self.world_path / "datapacks" / "minecraftia_bridge"
+        self.datapack_data_path = self.datapack_path / "data" / "minecraftia" / "functions"
+        self.datapack_pack_path = self.datapack_path / "pack.mcmeta"
+        self.datapack_spawn_path = self.datapack_data_path / "spawn_entities.mcfunction"
+        self.datapack_load_path = self.datapack_data_path / "load.mcfunction"
+        self.datapack_load_tag_path = self.datapack_path / "data" / "minecraft" / "tags" / "functions" / "load.json"
+        self.datapack_tick_path = self.datapack_data_path / "tick.mcfunction"
         self._load_state()
         self._ensure_files()
 
@@ -39,6 +46,10 @@ class MinecraftPluginHook:
         self.entities_path.parent.mkdir(parents=True, exist_ok=True)
         self.commands_path.parent.mkdir(parents=True, exist_ok=True)
         self.interactions_path.parent.mkdir(parents=True, exist_ok=True)
+        self.datapack_spawn_path.parent.mkdir(parents=True, exist_ok=True)
+        self.datapack_load_path.parent.mkdir(parents=True, exist_ok=True)
+        self.datapack_load_tag_path.parent.mkdir(parents=True, exist_ok=True)
+        self.datapack_pack_path.parent.mkdir(parents=True, exist_ok=True)
 
     def _load_state(self) -> None:
         self._ensure_files()
@@ -48,6 +59,44 @@ class MinecraftPluginHook:
         self.state.setdefault("tick", 0)
         self.state.setdefault("entities", {})
         self.state.setdefault("actions", [])
+        self._ensure_datapack()
+
+    def _ensure_datapack(self) -> None:
+        self.datapack_path.mkdir(parents=True, exist_ok=True)
+        self.datapack_data_path.mkdir(parents=True, exist_ok=True)
+        self.datapack_load_path.parent.mkdir(parents=True, exist_ok=True)
+        self.datapack_load_tag_path.parent.mkdir(parents=True, exist_ok=True)
+        if not self.datapack_pack_path.exists():
+            self.datapack_pack_path.write_text(
+                json.dumps({"pack": {"pack_format": 15, "description": "Minecraftia bridge datapack"}}, indent=2),
+                encoding="utf-8",
+            )
+        if not self.datapack_load_path.exists():
+            self.datapack_load_path.write_text("# Minecraftia bridge load function\nfunction minecraftia:spawn_entities\n", encoding="utf-8")
+        if not self.datapack_tick_path.exists():
+            self.datapack_tick_path.write_text("# Minecraftia bridge tick function\n", encoding="utf-8")
+        if not self.datapack_spawn_path.exists():
+            self.datapack_spawn_path.write_text("# Minecraftia bridge spawn function\n", encoding="utf-8")
+        if not self.datapack_load_tag_path.exists():
+            self.datapack_load_tag_path.write_text(
+                json.dumps({"values": ["minecraftia:load"]}, indent=2),
+                encoding="utf-8",
+            )
+
+    def _ensure_datapack(self) -> None:
+        self.datapack_path.mkdir(parents=True, exist_ok=True)
+        self.datapack_data_path.mkdir(parents=True, exist_ok=True)
+        if not self.datapack_pack_path.exists():
+            self.datapack_pack_path.write_text(
+                json.dumps({"pack": {"pack_format": 15, "description": "Minecraftia bridge datapack"}}, indent=2),
+                encoding="utf-8",
+            )
+        if not self.datapack_load_path.exists():
+            self.datapack_load_path.write_text("# Minecraftia bridge load function\n", encoding="utf-8")
+        if not self.datapack_tick_path.exists():
+            self.datapack_tick_path.write_text("# Minecraftia bridge tick function\n", encoding="utf-8")
+        if not self.datapack_spawn_path.exists():
+            self.datapack_spawn_path.write_text("# Minecraftia bridge spawn function\n", encoding="utf-8")
 
     def _save_state(self) -> None:
         with self.lock:
@@ -173,12 +222,34 @@ class MinecraftPluginHook:
             handle.write(json.dumps(action) + "\n")
 
     def _write_spawn_command(self, entity: Dict[str, Any]) -> None:
+        spawn_x = entity.get("position", {}).get("x", 0.0)
+        spawn_y = entity.get("position", {}).get("y", 64.0)
+        spawn_z = entity.get("position", {}).get("z", 0.0)
         with self.commands_path.open("a", encoding="utf-8") as handle:
             handle.write(
                 f"# spawn {entity['name']} as {entity['role']} at {entity['location']}\n"
-                f"summon villager ~ ~ ~ {{CustomName:'{{\"text\":\"{entity['name']}\"}}', Tags:['minecraftia','ai','{entity['entity_id']}'], CustomNameVisible:1b}}\n"
+                f"summon villager {spawn_x} {spawn_y} {spawn_z} {{CustomName:'{{\"text\":\"{entity['name']}\"}}', Tags:['minecraftia','ai','{entity['entity_id']}'], CustomNameVisible:1b}}\n"
             )
             entity["spawned"] = True
+        self._write_datapack_spawn(entity)
+
+    def _write_datapack_spawn(self, entity: Dict[str, Any]) -> None:
+        self._rewrite_datapack_spawn()
+
+    def _rewrite_datapack_spawn(self) -> None:
+        lines: List[str] = ["# Minecraftia bridge entity spawns"]
+        for entity in self.state.get("entities", {}).values():
+            spawn_x = int(entity.get("position", {}).get("x", 0.0))
+            spawn_y = int(entity.get("position", {}).get("y", 64.0))
+            spawn_z = int(entity.get("position", {}).get("z", 0.0))
+            lines.append(
+                f"# spawn {entity['name']} as {entity['role']} at {entity['location']}"
+            )
+            lines.append(
+                f"execute unless entity @e[tag={entity['entity_id']}],sort=nearest,limit=1 run summon villager {spawn_x} {spawn_y} {spawn_z} "
+                f"{{CustomName:'{{\"text\":\"{entity['name']}\"}}',Tags:['minecraftia','ai','{entity['entity_id']}'],CustomNameVisible:1b}}"
+            )
+        self.datapack_spawn_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     def _write_command(self, entity: Dict[str, Any], action_type: str, payload: Dict[str, Any]) -> None:
         with self.commands_path.open("a", encoding="utf-8") as handle:
