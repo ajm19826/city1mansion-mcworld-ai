@@ -429,6 +429,3715 @@
     {
       "event": "runtime_stopped",
       "tick": 5
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 1
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 2
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 3
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 4
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 5
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 6
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 6
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 6
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 6
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 6
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 7
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 8
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 9
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 10
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 11
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 11
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 11
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 12
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 13
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 14
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 15
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 16
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 17
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 18
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 19
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 20
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 21
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 22
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 23
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 24
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 25
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 26
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 27
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 27
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 27
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 27
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 28
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 29
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 30
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 31
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 32
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 33
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 34
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 35
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 36
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 37
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 38
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 39
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 40
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 41
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 42
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 43
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 44
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 45
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 46
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 47
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 48
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 49
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 50
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 51
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 52
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 53
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 54
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 55
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 56
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 56
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 56
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 56
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 56
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 57
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 58
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 58
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 58
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 58
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 58
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 59
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 60
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 61
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 62
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 63
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 64
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 64
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 64
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 64
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 65
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 66
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 67
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 68
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 69
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 70
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 70
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 70
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 70
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 70
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 71
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0014",
+      "decision": "expand_business",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 72
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 73
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 74
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 74
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 74
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 74
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 74
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 75
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 76
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 76
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 76
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 76
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 76
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 77
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 78
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 79
+    },
+    {
+      "agent": "Citizen_0011",
+      "decision": "expand_business",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 80
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0016",
+      "decision": "stabilize_trade",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 81
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 82
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 83
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 84
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0027",
+      "decision": "explore_area",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 85
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 86
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 86
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 86
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 86
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 86
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 87
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 88
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0034",
+      "decision": "explore_area",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0039",
+      "decision": "plan_construction",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 89
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0008",
+      "decision": "plan_construction",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0038",
+      "decision": "explore_area",
+      "tick": 90
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0007",
+      "decision": "plan_construction",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0009",
+      "decision": "expand_business",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0012",
+      "decision": "expand_business",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0032",
+      "decision": "plan_construction",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 91
+    },
+    {
+      "agent": "Citizen_0003",
+      "decision": "expand_business",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0006",
+      "decision": "expand_business",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0030",
+      "decision": "explore_area",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0033",
+      "decision": "expand_business",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 92
+    },
+    {
+      "agent": "Citizen_0004",
+      "decision": "plan_construction",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0005",
+      "decision": "explore_area",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0015",
+      "decision": "stabilize_trade",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0035",
+      "decision": "stabilize_services",
+      "tick": 93
+    },
+    {
+      "agent": "Citizen_0001",
+      "decision": "plan_construction",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0010",
+      "decision": "expand_business",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0018",
+      "decision": "plan_construction",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0019",
+      "decision": "expand_business",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0021",
+      "decision": "expand_business",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0022",
+      "decision": "expand_business",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0024",
+      "decision": "plan_construction",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0025",
+      "decision": "explore_area",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0026",
+      "decision": "plan_construction",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0029",
+      "decision": "expand_business",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 94
+    },
+    {
+      "agent": "Citizen_0013",
+      "decision": "explore_area",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0017",
+      "decision": "plan_construction",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0020",
+      "decision": "plan_construction",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0023",
+      "decision": "explore_area",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0028",
+      "decision": "explore_area",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0031",
+      "decision": "expand_business",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0036",
+      "decision": "explore_area",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0037",
+      "decision": "explore_area",
+      "tick": 95
+    },
+    {
+      "agent": "Citizen_0040",
+      "decision": "plan_construction",
+      "tick": 95
+    },
+    {
+      "event": "runtime_stopped",
+      "tick": 96
     }
   ],
   "world_actions": [
@@ -917,6 +4626,4146 @@
       },
       "target": "Citizen_0038",
       "tick": 5
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 1
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 1
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 1
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 1
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 2
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 2
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 2
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 2
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 2
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 2
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 3
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 3
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 4
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 4
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 4
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 5
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 5
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 5
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 5
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 6
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 6
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 6
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 7
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 7
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 7
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 7
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 7
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 8
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 8
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 8
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 8
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 8
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 8
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 9
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 9
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 9
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 9
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 9
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 9
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 10
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 10
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 10
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 10
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 11
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 12
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 12
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 12
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 12
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 12
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 13
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 13
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 13
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 13
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 13
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 13
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 14
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 14
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 14
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 14
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 14
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 15
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 15
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 15
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 15
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 15
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 15
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 15
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 15
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 16
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 16
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 16
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 16
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 16
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 17
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 17
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 17
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 17
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 17
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 17
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 18
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 19
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 19
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 19
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 20
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 20
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 20
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 20
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 20
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 20
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 20
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 20
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 21
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 21
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 21
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 22
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 22
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 22
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 23
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 23
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 23
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 23
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 23
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 23
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 24
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 24
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 24
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 24
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 24
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 24
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 25
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 25
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 25
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 25
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 25
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 26
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 26
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 26
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 27
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 28
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 28
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 28
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 28
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 29
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 29
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 29
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 29
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 29
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 29
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 30
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 30
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 30
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 30
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 31
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 31
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 31
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 32
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 32
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 32
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 32
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 32
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 32
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 33
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 33
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 33
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 34
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 34
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 34
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 34
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 34
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 34
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 35
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 35
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 35
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 35
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 35
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 36
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 36
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 36
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 36
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 36
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 36
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 36
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 37
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 37
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 37
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 37
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 37
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 37
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 37
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 38
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 38
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 39
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 39
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 39
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 40
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 40
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 40
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 40
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 40
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 40
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 41
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 41
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 41
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 41
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 41
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 41
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 42
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 42
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 42
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 42
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 43
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 43
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 43
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 43
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 44
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 44
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 44
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 44
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 44
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 44
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 44
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 44
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 44
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 45
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 45
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 45
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 46
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 46
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 46
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 46
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 47
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 47
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 47
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 48
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 48
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 48
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 48
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 48
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 49
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 49
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 49
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 49
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 49
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 49
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 49
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 49
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 50
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 50
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 50
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 50
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 50
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 50
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 51
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 51
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 51
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 51
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 51
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 51
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 51
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 51
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 52
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 52
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 52
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 53
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 53
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 53
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 53
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 53
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 53
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 54
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 54
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 54
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 54
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 54
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 55
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 55
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 55
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 55
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 55
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 55
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 55
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 56
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 57
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 57
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 57
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 57
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 57
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 57
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 58
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 58
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 58
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 59
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 59
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 59
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 60
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 60
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 60
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 60
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 60
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 60
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 60
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 61
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 61
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 61
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 61
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 61
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 61
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 62
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 62
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 62
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 63
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 63
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 63
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 63
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 63
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 63
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 64
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 64
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 65
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 65
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 65
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 65
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 65
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 65
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 66
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 66
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 66
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 67
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 67
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 67
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 67
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 67
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 67
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 68
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 68
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 68
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 68
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 68
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 68
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 68
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 69
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 69
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 69
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 69
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 70
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 70
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 70
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 71
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 71
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 72
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 72
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 72
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 72
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 73
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 73
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 73
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 73
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 73
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 74
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 74
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 75
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 75
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 75
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 75
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 75
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 75
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 76
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 76
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 77
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 77
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 77
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 77
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 77
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 78
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 78
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 78
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 78
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 78
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 78
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 78
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 79
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 79
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 79
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 79
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 80
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 80
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 80
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 80
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 81
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 81
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0016",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0016",
+      "tick": 81
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 81
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 81
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 81
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 81
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 81
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 82
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 82
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 82
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 82
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 82
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 83
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 83
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 83
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 83
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 83
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 83
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 83
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 84
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 84
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 84
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 84
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0027",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0027",
+      "tick": 85
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 85
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 85
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 85
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 85
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 85
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 86
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 86
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 87
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 87
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 87
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 87
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 87
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 87
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 87
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 88
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 88
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 88
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 88
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 88
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 89
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 89
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 89
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0034",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0034",
+      "tick": 89
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 89
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 89
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0039",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0039",
+      "tick": 89
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 89
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 90
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0008",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0008",
+      "tick": 90
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 90
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 90
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 90
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 90
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0038",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0038",
+      "tick": 90
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 91
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0007",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0007",
+      "tick": 91
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 91
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 91
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0032",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0032",
+      "tick": 91
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 92
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 92
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 92
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0030",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0030",
+      "tick": 92
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 92
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 92
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0004",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0004",
+      "tick": 93
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0005",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0005",
+      "tick": 93
+    },
+    {
+      "action_type": "economy",
+      "agent": "Citizen_0015",
+      "details": {
+        "task": "adjust_prices"
+      },
+      "target": "Citizen_0015",
+      "tick": 93
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0001",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0001",
+      "tick": 94
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0018",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0018",
+      "tick": 94
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0024",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0024",
+      "tick": 94
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0025",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0025",
+      "tick": 94
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0026",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0026",
+      "tick": 94
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 94
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0013",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0013",
+      "tick": 95
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0017",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0017",
+      "tick": 95
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0020",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0020",
+      "tick": 95
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0023",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0023",
+      "tick": 95
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0028",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0028",
+      "tick": 95
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0036",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0036",
+      "tick": 95
+    },
+    {
+      "action_type": "explore",
+      "agent": "Citizen_0037",
+      "details": {
+        "task": "survey_region"
+      },
+      "target": "Citizen_0037",
+      "tick": 95
+    },
+    {
+      "action_type": "build",
+      "agent": "Citizen_0040",
+      "details": {
+        "task": "new_project"
+      },
+      "target": "Citizen_0040",
+      "tick": 95
     }
   ]
 }
