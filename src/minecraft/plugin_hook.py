@@ -119,7 +119,18 @@ class MinecraftPluginHook:
             except Exception as exc:  # pragma: no cover - defensive logging
                 logger.exception("Failed to save plugin state: %s", exc)
 
-    def register_entity(self, entity_id: str, name: str, role: str, location: str, position: Optional[Dict[str, float]] = None) -> Dict[str, Any]:
+    def persist_state(self) -> None:
+        self._save_state()
+
+    def register_entity(
+        self,
+        entity_id: str,
+        name: str,
+        role: str,
+        location: str,
+        position: Optional[Dict[str, float]] = None,
+        save: bool = True,
+    ) -> Dict[str, Any]:
         with self.lock:
             self._ensure_files()
             entities = self.state.setdefault("entities", {})
@@ -145,7 +156,8 @@ class MinecraftPluginHook:
                 entity["location"] = location
                 entity["position"] = position or entity.get("position", {"x": 0.0, "y": 64.0, "z": 0.0})
                 entity["thinking"] = True
-            self._save_state()
+            if save:
+                self._save_state()
             return entity
 
     def get_entities(self) -> Dict[str, Any]:
@@ -234,22 +246,15 @@ class MinecraftPluginHook:
         self._write_datapack_spawn(entity)
 
     def _write_datapack_spawn(self, entity: Dict[str, Any]) -> None:
-        self._rewrite_datapack_spawn()
-
-    def _rewrite_datapack_spawn(self) -> None:
-        lines: List[str] = ["# Minecraftia bridge entity spawns"]
-        for entity in self.state.get("entities", {}).values():
-            spawn_x = int(entity.get("position", {}).get("x", 0.0))
-            spawn_y = int(entity.get("position", {}).get("y", 64.0))
-            spawn_z = int(entity.get("position", {}).get("z", 0.0))
-            lines.append(
-                f"# spawn {entity['name']} as {entity['role']} at {entity['location']}"
-            )
-            lines.append(
+        spawn_x = int(entity.get("position", {}).get("x", 0.0))
+        spawn_y = int(entity.get("position", {}).get("y", 64.0))
+        spawn_z = int(entity.get("position", {}).get("z", 0.0))
+        with self.datapack_spawn_path.open("a", encoding="utf-8") as handle:
+            handle.write(
+                f"# spawn {entity['name']} as {entity['role']} at {entity['location']}\n"
                 f"execute unless entity @e[tag={entity['entity_id']}],sort=nearest,limit=1 run summon villager {spawn_x} {spawn_y} {spawn_z} "
-                f"{{CustomName:'{{\"text\":\"{entity['name']}\"}}',Tags:['minecraftia','ai','{entity['entity_id']}'],CustomNameVisible:1b}}"
+                f"{{CustomName:'{{\"text\":\"{entity['name']}\"}}',Tags:['minecraftia','ai','{entity['entity_id']}'],CustomNameVisible:1b}}\n"
             )
-        self.datapack_spawn_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     def _write_command(self, entity: Dict[str, Any], action_type: str, payload: Dict[str, Any]) -> None:
         with self.commands_path.open("a", encoding="utf-8") as handle:

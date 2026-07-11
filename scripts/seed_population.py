@@ -45,11 +45,14 @@ def seed(world_path: str, batch: int = 500, pause: float = 0.25) -> None:
     logger.info("Registering %d citizens in batches of %d...", total, batch)
 
     try:
-        for i in range(0, total, batch):
+        total_batches = (total + batch - 1) // batch
+        for batch_index, i in enumerate(range(0, total, batch), start=1):
+            logger.info("Starting batch %d/%d", batch_index, total_batches)
             subset = engine.citizens[i : i + batch]
             for c in subset:
                 entity_id = f"entity_{c.name.replace(' ', '_').lower()}"
-                hook.register_entity(entity_id, c.name, c.job.title, c.city)
+                hook.register_entity(entity_id, c.name, c.job.title, c.city, save=False)
+            hook.persist_state()
             # allow a short pause so any file watchers can catch up
             logger.info("Seeded %d/%d citizens", min(i + batch, total), total)
             time.sleep(pause)
