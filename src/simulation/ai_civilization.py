@@ -5,7 +5,7 @@ from typing import List
 from src.ai import CitizenAgent, AgentState, DecisionEngine
 from src.ai.roles import MayorAgent, ConstructionAgent, ExplorerAgent, EconomyAgent
 from src.engine import SimulationEngine
-from src.minecraft import MinecraftIntegration, MinecraftAction
+from src.minecraft import MinecraftIntegration, MinecraftAction, MinecraftBridge
 from src.world_actions import WorldActionExecutor
 
 
@@ -16,6 +16,7 @@ class AICivilizationSimulator:
         self.decision_engine = DecisionEngine(model_enabled=False)
         self.minecraft = MinecraftIntegration(enabled=True)
         self.minecraft.connect()
+        self.bridge = MinecraftBridge(world_path=self.minecraft.world_path)
         self.world_actions = WorldActionExecutor()
         self.agents: List[CitizenAgent] = []
         self._create_agents(citizen_count)
@@ -61,6 +62,14 @@ class AICivilizationSimulator:
             action = self.minecraft.execute_decision(decision, agent.state.name)
             if action:
                 self.minecraft.publish_action(action)
+                if action.action_type == "build":
+                    self.bridge.emit_build_command(agent.state.name, agent.state.city)
+                elif action.action_type == "explore":
+                    self.bridge.emit_explore_command(agent.state.name, agent.state.city)
+                elif action.action_type == "government":
+                    self.bridge.emit_govern_command(agent.state.name, "fund_repairs")
+                elif action.action_type == "economy":
+                    self.bridge.emit_economy_command(agent.state.name, "adjust_prices")
             world_action = self.world_actions.execute(decision, agent.state.name, self.engine.world)
             if world_action:
                 agent.memory.add(f"World action: {world_action.action_type}", importance=2)
